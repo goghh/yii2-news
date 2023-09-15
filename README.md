@@ -6,6 +6,11 @@ Copy frontend .env
 
     cd frontend
     cp .env.example .env
+    cp ..
+
+Change runtime folder permissions
+
+    sudo chmod 777 -R runtime
 
 Start the container
 
