@@ -58,6 +58,12 @@ $config = [
             ],
         ],
     ],
+    'as beforeRequest' => [
+        'class' => \yii\filters\Cors::class,
+        'cors' => [
+            'Access-Control-Allow-Headers' => ['*'],
+        ],
+    ],
     'params' => $params,
     'container' => [
         'definitions' => [
